@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background: linear-gradient(yellowgreen,green);
+}
+
+.header {
+    text-align: center;
+    height: 200px;
+    border-radius: 12px;
+}
+#taskInput{
+    font-size: 20px;
+    border: 1px black;
+    border-radius: 12px;
+}
+
+.tasks {
+    max-width: 400px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
